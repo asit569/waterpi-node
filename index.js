@@ -58,7 +58,7 @@ boards.on("ready", function() {
 
   // initialize lcd screen to print debug info
   lcd = new five.LCD({ 
-    controller: "LCM1602",
+    controller: "PCF8574A",
     board: this.byId('pi')
   });
 
